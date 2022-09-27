@@ -6,5 +6,3 @@ console.log(galleryItems);
 
 const bolek = 'adamiec';
 
-const koza = 'łukasz';
-
