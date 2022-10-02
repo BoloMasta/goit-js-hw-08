@@ -10,7 +10,6 @@ const type = () => {
 // lodash.throttle
 var throttle = require('lodash.throttle');
 var throttled = throttle(type, 500, { trailing: false });
-
 form.addEventListener('input', event => throttled());
 
 try {
