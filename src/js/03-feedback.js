@@ -21,7 +21,7 @@ try {
 // SUBMIT
 form.addEventListener('submit', event => {
   event.preventDefault();
-  console.log(localStorage.getItem('feedback-form-state'));
+  console.log({ email: input.value, message: textarea.value });
   localStorage.removeItem('feedback-form-state');
   input.value = '';
   textarea.value = '';
